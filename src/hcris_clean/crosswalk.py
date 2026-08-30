@@ -14,11 +14,9 @@ Do not feed a variable into clean.build_panel() until profile.py has been
 run against the real fiscal-year extract you're using and its output
 confirms the (wksht_cd, line_num, clmn_num) address actually contains what
 you expect (e.g. numeric values in a plausible dollar range, for the right
-subset of providers) — the same empirical-confirmation-before-trust pattern
-already used in this project's natality-cleaning pipeline
-(profile_natality_2024.py before clean_natality_2024.py). Flip `confirmed`
-to True only after doing that, and record the fiscal year(s)/form version(s)
-that confirmation covered in `confirmed_for`.
+subset of providers). Flip `confirmed` to True only after doing that, and
+record the fiscal year(s)/form version(s) that confirmation covered in
+`confirmed_for`.
 """
 
 CROSSWALK = {

@@ -21,8 +21,7 @@ looked up via crosswalk.py, and that address can differ between cost-report
 form versions (2552-96 vs 2552-10) and has been known to shift for individual
 line items across years. See profile.py — DO NOT trust crosswalk.py's mapping
 for a new form/year until profile.py's output confirms it against the real
-file, the same way this project's natality pipeline required profiling
-before trusting sentinel codes.
+file.
 
 This module deliberately does NOT hardcode exact filenames (e.g. whether a
 given year's zip names the numeric file "*_NMRC.CSV" or "*_NUMERIC.CSV") —

@@ -8,8 +8,8 @@ for one person to fully cover alone.
 ## Development setup
 
 ```bash
-git clone <this-repo>
-cd hcris-clean
+git clone https://github.com/lukola123/hcris_clean.git
+cd hcris_clean
 pip install -e ".[dev]"
 pytest
 ```

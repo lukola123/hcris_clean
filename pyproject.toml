@@ -29,8 +29,8 @@ classifiers = [
 dev = ["pytest>=7.0", "pytest-cov"]
 
 [project.urls]
-Homepage = "https://github.com/REPLACE_ME/hcris-clean"
-Issues = "https://github.com/REPLACE_ME/hcris-clean/issues"
+Homepage = "https://github.com/lukola123/hcris_clean"
+Issues = "https://github.com/lukola123/hcris_clean/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]

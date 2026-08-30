@@ -8,12 +8,12 @@ tags:
   - rural health
 authors:
   - name: Abiola Olayinka
-    orcid: 0000-0000-0000-0000  # REPLACE with real ORCID iD before submitting
+    orcid: 0009-0008-7217-2991
     affiliation: 1
 affiliations:
-  - name: REPLACE with institution/affiliation name
+  - name: Independent Researcher
     index: 1
-date: REPLACE with submission date
+date: 30 August 2026
 bibliography: paper.bib
 ---
 

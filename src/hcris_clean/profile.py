@@ -1,9 +1,8 @@
 """
 Diagnostic-only pass over one HCRIS extract — run BEFORE trusting crosswalk.py.
 
-Mirrors the profile-before-clean pattern used elsewhere in this project: this
-module makes no changes and derives no output data, it only reports what's
-actually in the file so a human can confirm or correct crosswalk.py's
+This module makes no changes and derives no output data — it only reports
+what's actually in the file so a human can confirm or correct crosswalk.py's
 worksheet/line/column addresses for the specific form/year in hand.
 """
 
