@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+build/
+dist/
+
+# Raw/derived HCRIS data — large, redistributable from CMS directly, not committed
+data/
+*.zip
+*.CSV
+*.csv
+!tests/**/*.csv
